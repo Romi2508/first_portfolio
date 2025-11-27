@@ -1,0 +1,385 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    background-image: url("videos/backimg.jpeg");
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-size: max(1000px, 100vw);
+}
+
+.box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+}
+
+.net {
+    justify-content: center;
+    align-content: center;
+    color: brown;
+
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 50vw;
+    margin: auto;
+    height: 62px;
+
+}
+
+.flex {
+    display: flex;
+    gap: 3px;
+    cursor: pointer;
+
+
+}
+
+.eng {
+    background-color: black;
+    color: azure;
+    padding: 2px;
+    width: 4vw;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+nav svg {
+    width: 1000px;
+    position: relative;
+    z-index: 8;
+
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+
+
+}
+
+.hero {
+    color: white;
+    position: relative;
+    z-index: 10;
+    height: 89.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+    padding: 0 23px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    @import url(https://fonts.google.com/specimen/Roboto);
+
+
+}
+
+.pe {
+    font-size: 35px;
+}
+
+.boxe {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+.boxe input {
+    position: relative;
+    z-index: 10;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 16px 24px;
+    background-color: rgb(23, 23, 23, 0.2);
+    text-align: center;
+    font-size: 15px;
+    color: white;
+
+
+
+
+}
+
+.boxe button {
+    position: relative;
+    z-index: 10;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 16px 24px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(232, 51, 51);
+
+}
+
+.line {
+    height: 11px;
+    background-color: rgb(224, 20, 20);
+    margin-top:0px;
+
+}
+
+.btn-1 {
+    background-color: red;
+    /* padding:3px 8px; */
+    color: white;
+    font-weight: bolder;
+    padding: 2px;
+    width: 4vw;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.trending-section {
+   
+    background-color:black
+}
+
+.trending-title {
+    font-size: 26px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    color:white;
+    margin-left:25px;
+    padding-top:8px;;
+}
+
+.trending-list {
+    display: flex;
+    gap: 15px;
+    overflow-x:auto; 
+    padding-bottom: 10px;
+}
+
+.show {
+    position: relative;
+    min-width: 180px;
+    flex-shrink: 0;
+}
+
+.kapil img{
+    width:201px;
+    height:215px;
+    border-radius:20px;
+}
+.raid img{
+     width:201px;
+    height:215px;
+    border-radius:20px;
+
+}
+.last img{
+    width:201px;
+    height:215px;
+    border-radius:20px;
+
+}
+.mandala img{
+    width:201px;
+    height:215px;
+    border-radius:20px;
+}
+.squid img{
+    width:201px;
+    height:215px;
+    border-radius:20px;
+}
+.again img{
+    width:201px;
+    height:215px;
+    border-radius:20px;
+}
+
+.more img{
+    width:201px;
+    height:215px;
+    border-radius:20px;
+}
+.show img {
+    width: 100%;
+    border-radius: 6px;
+    display:flex;
+}
+
+.rank {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+  .scroll-hint {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      background-color: rgba(255, 255, 255, 0.2);
+      padding: 10px 12px;
+      border-radius: 50%;
+      font-size: 24px;
+      pointer-events: none; 
+       backdrop-filter: blur(3px);
+    } 
+    .scroll-btn{
+        overflow-block: normal;
+    } 
+
+.sent{
+    color:white;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    font-weight: 100;
+      margin-left:25px;
+      margin-top:10px;
+      margin-bottom:2px;
+}
+.boxes{
+    margin:2px;
+    padding:5px;
+    display:flex;
+
+}
+.box1{
+    color:white;
+    margin:10px;
+    padding:50px;
+    background-color:rgb(2, 2, 75);
+    border:2px solid black;
+    border-radius:20px;
+    
+
+}
+.box2{
+    color:white;
+    margin:10px;
+    padding:50px;
+     background-color:rgb(2, 2, 75);
+     border:2px solid black;
+    border-radius:20px;
+
+
+}
+.box3{
+    color:white;
+    margin:10px;
+    padding:50px;
+     background-color:rgb(2, 2, 75);
+     border:2px solid black;
+    border-radius:20px;
+
+
+}
+.box4{
+    color:white;
+    margin:10px;
+    padding:50px;
+     background-color:rgb(2, 2, 75);
+     border:2px solid black;
+    border-radius:20px;
+
+
+}
+.fr{
+    font-size: 25px;
+    padding:10px;
+    
+}
+.sec{
+    font-size: 25px;
+    padding:10px;
+}
+.th{
+    font-size: 25px;
+    padding:10px;
+}
+.fo{
+    font-size: 25px;
+    padding:10px;
+}
+.freq{
+    color:white;
+    font-size: 25px;
+    margin-left:25px;
+}
+.bux1{
+    color:white;
+    background-color:grey;
+    padding:10px;
+    border:2px solid black;
+    margin:25px;
+    font-size:25px;
+
+}
+.bux2{
+    color:white;
+     background-color:grey;
+    padding:10px;
+    border:2px solid black;
+    margin:25px;
+    font-size:25px;
+
+}
+.bux3{
+    color:white;
+     background-color:grey;
+    padding:10px;
+    border:2px solid black;
+    margin:25px;
+    font-size:25px;
+
+}
+.bux4{
+    color:white;
+     background-color:grey;
+    padding:10px;
+    border:2px solid black;
+    margin:25px;
+    font-size:25px;
+
+}
+.bux5{
+    color:white;
+     background-color:grey;
+    padding:10px;
+    border:2px solid black;
+    margin:25px;
+    font-size:25px;
+
+}
+.bux6{
+    color:white;
+     background-color:grey;
+    padding:10px;
+    border:2px solid black;
+    margin:25px;
+    font-size:25px;
+    
+
+}
+
+
+
+    
